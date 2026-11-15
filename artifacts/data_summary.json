@@ -1,0 +1,15 @@
+{
+  "records": 44,
+  "unique_fields": 34,
+  "counts": {
+    "(2021, 'Grain')": 14,
+    "(2021, 'Silage')": 4,
+    "(2022, 'Grain')": 3,
+    "(2022, 'Silage')": 4,
+    "(2023, 'Grain')": 15,
+    "(2023, 'Silage')": 4
+  },
+  "geometry_repairs_after_reprojection": [
+    "81"
+  ]
+}

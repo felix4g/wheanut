@@ -1,0 +1,3 @@
+PASS: unauthenticated API, wrong tokens and source/secret paths rejected.
+PASS: actual new-boundary satellite collection, classifier inference and real Nemotron explanation.
+Observation dates: 21 Prediction: Grain Seconds: 27.8 Explainer: nvidia/Nemotron-Mini-4B-Instruct

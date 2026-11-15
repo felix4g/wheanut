@@ -1,0 +1,14 @@
+numpy==2.5.4
+pandas==2.3.3
+geopandas==1.2.0
+rasterio==1.5.2
+scikit-learn==1.9.1
+pystac-client==0.9.1
+planetary-computer==1.0.0
+pyarrow==26.0.1
+requests==2.34.2
+joblib==1.6.0
+torch==2.15.0
+transformers==5.23.0
+accelerate==1.15.0
+sentencepiece==0.2.3

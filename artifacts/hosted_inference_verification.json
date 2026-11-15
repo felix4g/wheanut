@@ -1,0 +1,10 @@
+{
+  "website": "https://wheanut.pages.dev",
+  "backend": "https://wheanut-api.maqichao0203.workers.dev",
+  "model": "nvidia/nemotron-3.5-lightning-30b-a3b",
+  "observedDate": "2026-11-14",
+  "status": "Analysis received. Review the evidence and verify the result.",
+  "question": "In two short sentences, explain what this field’s NDVI observations can and cannot tell us about its harvest.",
+  "summary": "The NDVI trajectory shows a healthy crop peak in early July, followed by a gradual decline starting in late September, consistent with a grain crop’s typical senescence pattern. However, NDVI alone cannot confirm harvest type, as similar greenness changes occur in other crops, and it cannot establish actual harvest timing or yield. To verify the crop and harvest status, please cross-reference these NDVI patterns with field records, planting dates, and higher-resolution imagery from your area.",
+  "verificationMethod": "Rendered website UI after authenticated request; no credentials recorded."
+}

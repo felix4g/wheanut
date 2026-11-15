@@ -1,0 +1,224 @@
+{
+  "evaluation": "strict leave-one-year-out with all held-out fields excluded from training in every year",
+  "class_order": [
+    "Grain",
+    "Silage"
+  ],
+  "confusion_matrix": [
+    [
+      21,
+      11
+    ],
+    [
+      3,
+      9
+    ]
+  ],
+  "classification_report": {
+    "Grain": {
+      "precision": 0.875,
+      "recall": 0.65625,
+      "f1-score": 0.75,
+      "support": 32.0
+    },
+    "Silage": {
+      "precision": 0.45,
+      "recall": 0.75,
+      "f1-score": 0.5625,
+      "support": 12.0
+    },
+    "accuracy": 0.6818181818181818,
+    "macro avg": {
+      "precision": 0.6625,
+      "recall": 0.703125,
+      "f1-score": 0.65625,
+      "support": 44.0
+    },
+    "weighted avg": {
+      "precision": 0.759090909090909,
+      "recall": 0.6818181818181818,
+      "f1-score": 0.6988636363636364,
+      "support": 44.0
+    }
+  },
+  "false_positive_rate": {
+    "Grain": 0.25,
+    "Silage": 0.34375
+  },
+  "folds": [
+    {
+      "held_out_year": 2021,
+      "train_records": 18,
+      "test_records": 18,
+      "training_fields": [
+        "230",
+        "231",
+        "248",
+        "251",
+        "252",
+        "254",
+        "278",
+        "279",
+        "292",
+        "323",
+        "382",
+        "383",
+        "394",
+        "397",
+        "400",
+        "429"
+      ],
+      "held_out_fields": [
+        "1",
+        "238",
+        "24",
+        "263",
+        "280",
+        "286",
+        "288",
+        "291",
+        "301",
+        "327",
+        "328",
+        "332",
+        "334",
+        "347",
+        "348",
+        "511",
+        "548",
+        "571"
+      ],
+      "field_overlap": 0
+    },
+    {
+      "held_out_year": 2022,
+      "train_records": 33,
+      "test_records": 7,
+      "training_fields": [
+        "1",
+        "230",
+        "238",
+        "24",
+        "248",
+        "254",
+        "263",
+        "280",
+        "288",
+        "291",
+        "292",
+        "301",
+        "323",
+        "327",
+        "328",
+        "332",
+        "334",
+        "347",
+        "348",
+        "382",
+        "383",
+        "394",
+        "397",
+        "400",
+        "511",
+        "548",
+        "571"
+      ],
+      "held_out_fields": [
+        "231",
+        "251",
+        "252",
+        "278",
+        "279",
+        "286",
+        "429"
+      ],
+      "field_overlap": 0
+    },
+    {
+      "held_out_year": 2023,
+      "train_records": 15,
+      "test_records": 19,
+      "training_fields": [
+        "252",
+        "263",
+        "278",
+        "279",
+        "280",
+        "291",
+        "301",
+        "327",
+        "328",
+        "332",
+        "334",
+        "429",
+        "511",
+        "548",
+        "571"
+      ],
+      "held_out_fields": [
+        "1",
+        "230",
+        "231",
+        "238",
+        "24",
+        "248",
+        "251",
+        "254",
+        "286",
+        "288",
+        "292",
+        "323",
+        "347",
+        "348",
+        "382",
+        "383",
+        "394",
+        "397",
+        "400"
+      ],
+      "field_overlap": 0
+    }
+  ],
+  "evaluated_counts": {
+    "(2021, 'Grain')": 14,
+    "(2021, 'Silage')": 4,
+    "(2022, 'Grain')": 3,
+    "(2022, 'Silage')": 4,
+    "(2023, 'Grain')": 15,
+    "(2023, 'Silage')": 4
+  },
+  "skipped_low_observation_ids": [],
+  "feature_columns": [
+    "peak_ndvi",
+    "peak_doy",
+    "ndvi_std",
+    "ndvi_month_6",
+    "ndvi_month_7",
+    "ndvi_month_8",
+    "ndvi_month_9",
+    "ndvi_month_10",
+    "ndvi_month_11",
+    "late_median",
+    "early_median",
+    "early_late_drop",
+    "steepest_decline",
+    "decline_doy",
+    "post_peak_drop"
+  ],
+  "limitations": [
+    "Small Maryland BARC dataset; not validated for California or other regions.",
+    "Satellite gaps and field-level mixed pixels can affect timing features.",
+    "Probabilities are uncalibrated model estimates, not guarantees.",
+    "Same field never appears on both sides of any evaluation split.",
+    "Nemotron explains predictions; it does not supply ground truth or measured classifier metrics."
+  ],
+  "majority_baseline": {
+    "accuracy": 0.7272727272727273,
+    "balanced_accuracy": 0.5,
+    "rule": "Always predict Grain"
+  },
+  "response_time": {
+    "classifier_seconds_per_field_mean": 4.9217158944388345e-05,
+    "scope": "Batched classifier prediction only, excludes satellite retrieval and Nemotron; training machine measurement."
+  }
+}

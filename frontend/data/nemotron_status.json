@@ -1,0 +1,9 @@
+{
+  "status": "complete",
+  "model": "nvidia/Nemotron-Mini-4B-Instruct",
+  "mode": "local GPU inference, cached explanations",
+  "count": 44,
+  "elapsed_seconds": 17.869805097579956,
+  "revision": null,
+  "ground_truth_in_prompts": false
+}

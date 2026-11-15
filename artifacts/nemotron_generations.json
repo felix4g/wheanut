@@ -1,0 +1,222 @@
+[
+  {
+    "id": "BARC-1-2021",
+    "model": "nvidia/Nemotron-Mini-4B-Instruct",
+    "text": "The classifier suggests Grain with an uncalibrated percentage of 65. NDVI measures greenness, not harvest type. Always check field records and imagery for confirmation."
+  },
+  {
+    "id": "BARC-24-2021",
+    "model": "nvidia/Nemotron-Mini-4B-Instruct",
+    "text": "The classifier suggests a silage crop with an uncalibrated percentage of 65. NDVI measures greenness, not harvest type. Always check field records and imagery for confirmation."
+  },
+  {
+    "id": "BARC-238-2021",
+    "model": "nvidia/Nemotron-Mini-4B-Instruct",
+    "text": "The classifier suggests Grain with an uncalibrated percentage of 81. NDVI measures greenness, not harvest type. Always check field records and imagery for confirmation."
+  },
+  {
+    "id": "BARC-280-2021",
+    "model": "nvidia/Nemotron-Mini-4B-Instruct",
+    "text": "The classifier suggests this field is primarily silage, with a 94% uncalibrated certainty. NDVI measures greenness, not harvest type. Always double-check field records and imagery for accuracy."
+  },
+  {
+    "id": "BARC-286-2021",
+    "model": "nvidia/Nemotron-Mini-4B-Instruct",
+    "text": "The classifier suggests Grain with an uncalibrated percentage of 81. NDVI measures greenness, not harvest type. Always check field records and imagery for confirmation."
+  },
+  {
+    "id": "BARC-288-2021",
+    "model": "nvidia/Nemotron-Mini-4B-Instruct",
+    "text": "The classifier suggests Grain with an uncalibrated percentage of 90. NDVI measures greenness but cannot confirm harvest type. Always check field records and imagery for accurate harvest information."
+  },
+  {
+    "id": "BARC-291-2021",
+    "model": "nvidia/Nemotron-Mini-4B-Instruct",
+    "text": "The classifier suggests this field is primarily silage, with a 94% uncalibrated certainty. NDVI measures greenness, not harvest type. Always double-check field records and imagery for accuracy."
+  },
+  {
+    "id": "BARC-327-2021",
+    "model": "nvidia/Nemotron-Mini-4B-Instruct",
+    "text": "\"The classifier suggests this field is predominantly grain, with an uncalibrated percentage of 87. However, NDVI measures greenness and cannot confirm harvest type. Always check field records and imagery for accurate harvest information.\""
+  },
+  {
+    "id": "BARC-328-2021",
+    "model": "nvidia/Nemotron-Mini-4B-Instruct",
+    "text": "The classifier suggests this field is primarily silage, with an uncalibrated percentage of 87. NDVI measures greenness, not harvest type. Always check field records and imagery for confirmation."
+  },
+  {
+    "id": "BARC-332-2021",
+    "model": "nvidia/Nemotron-Mini-4B-Instruct",
+    "text": "The classifier suggests Grain with an uncalibrated percentage of 59. NDVI measures greenness, not harvest type. Always check field records and imagery for confirmation."
+  },
+  {
+    "id": "BARC-334-2021",
+    "model": "nvidia/Nemotron-Mini-4B-Instruct",
+    "text": "The classifier suggests Grain with an uncalibrated percentage of 58. NDVI measures greenness, not harvest type. Always check field records and imagery for confirmation."
+  },
+  {
+    "id": "BARC-347-2021",
+    "model": "nvidia/Nemotron-Mini-4B-Instruct",
+    "text": "The classifier suggests Grain with an uncalibrated percentage of 87. NDVI measures greenness, not harvest type. Always check field records and imagery for confirmation."
+  },
+  {
+    "id": "BARC-348-2021",
+    "model": "nvidia/Nemotron-Mini-4B-Instruct",
+    "text": "The classifier suggests Grain with an uncalibrated percentage of 85. NDVI measures greenness, not harvest type. Always check field records and imagery for confirmation."
+  },
+  {
+    "id": "BARC-511-2021",
+    "model": "nvidia/Nemotron-Mini-4B-Instruct",
+    "text": "The classifier suggests Grain with an uncalibrated percentage of 94. NDVI measures greenness, not harvest type. Always check field records and imagery for confirmation."
+  },
+  {
+    "id": "BARC-571-2021",
+    "model": "nvidia/Nemotron-Mini-4B-Instruct",
+    "text": "The classifier suggests Grain with an uncalibrated percentage of 93. NDVI measures greenness, not harvest type. Always check field records and imagery for confirmation."
+  },
+  {
+    "id": "BARC-548-2021",
+    "model": "nvidia/Nemotron-Mini-4B-Instruct",
+    "text": "The classifier suggests Grain with an uncalibrated percentage of 92. NDVI measures greenness, not harvest type. Always check field records and imagery for confirmation."
+  },
+  {
+    "id": "BARC-263-2021",
+    "model": "nvidia/Nemotron-Mini-4B-Instruct",
+    "text": "The classifier suggests Grain with an uncalibrated percentage of 59. NDVI measures greenness, not harvest type. Always check field records and imagery for confirmation."
+  },
+  {
+    "id": "BARC-301-2021",
+    "model": "nvidia/Nemotron-Mini-4B-Instruct",
+    "text": "The classifier suggests Grain with an uncalibrated percentage of 79. NDVI measures greenness, not harvest type. Always check field records and imagery for confirmation."
+  },
+  {
+    "id": "BARC-231-2022",
+    "model": "nvidia/Nemotron-Mini-4B-Instruct",
+    "text": "The classifier suggests Grain with an uncalibrated percentage of 75. NDVI measures greenness, not harvest type. Always check field records and imagery for confirmation."
+  },
+  {
+    "id": "BARC-251-2022",
+    "model": "nvidia/Nemotron-Mini-4B-Instruct",
+    "text": "The classifier suggests this field is primarily silage, with an uncalibrated percentage of 62. NDVI measures greenness, not harvest type. Always check field records and imagery for confirmation."
+  },
+  {
+    "id": "BARC-252-2022",
+    "model": "nvidia/Nemotron-Mini-4B-Instruct",
+    "text": "The classifier suggests Grain with an uncalibrated percentage of 85. NDVI measures greenness, not harvest type. Always check field records and imagery for confirmation."
+  },
+  {
+    "id": "BARC-278-2022",
+    "model": "nvidia/Nemotron-Mini-4B-Instruct",
+    "text": "The classifier suggests this field is primarily silage, with a 94% uncalibrated certainty. NDVI measures greenness, not harvest type. Always double-check field records and imagery for accuracy."
+  },
+  {
+    "id": "BARC-279-2022",
+    "model": "nvidia/Nemotron-Mini-4B-Instruct",
+    "text": "The classifier suggests Grain with an uncalibrated percentage of 78. NDVI measures greenness, not harvest type. Always check field records and imagery for confirmation."
+  },
+  {
+    "id": "BARC-286-2022",
+    "model": "nvidia/Nemotron-Mini-4B-Instruct",
+    "text": "The classifier suggests Grain with an uncalibrated percentage of 79. NDVI measures greenness, not harvest type. Always check field records and imagery for confirmation."
+  },
+  {
+    "id": "BARC-429-2022",
+    "model": "nvidia/Nemotron-Mini-4B-Instruct",
+    "text": "The classifier suggests this field is primarily silage, with a 99% uncalibrated certainty. NDVI measures greenness, not harvest type. Always double-check field records and imagery for accuracy."
+  },
+  {
+    "id": "BARC-1-2023",
+    "model": "nvidia/Nemotron-Mini-4B-Instruct",
+    "text": "The classifier suggests this field is primarily silage, with an uncalibrated percentage of 84. NDVI measures greenness, not harvest type. Always double-check field records and imagery for accuracy."
+  },
+  {
+    "id": "BARC-24-2023",
+    "model": "nvidia/Nemotron-Mini-4B-Instruct",
+    "text": "The classifier suggests this field is primarily silage, with an uncalibrated percentage of 82. NDVI measures greenness, not harvest type. Always check field records and imagery for confirmation."
+  },
+  {
+    "id": "BARC-230-2023",
+    "model": "nvidia/Nemotron-Mini-4B-Instruct",
+    "text": "The classifier suggests this field is primarily silage, with a 94% uncalibrated certainty. NDVI measures greenness, not harvest type. Always double-check field records and imagery for accuracy."
+  },
+  {
+    "id": "BARC-231-2023",
+    "model": "nvidia/Nemotron-Mini-4B-Instruct",
+    "text": "The classifier suggests this field is primarily silage, with a 100% uncalibrated percentage. NDVI measures greenness, not harvest type. Always check field records and imagery for confirmation."
+  },
+  {
+    "id": "BARC-238-2023",
+    "model": "nvidia/Nemotron-Mini-4B-Instruct",
+    "text": "The classifier suggests this field is primarily silage, with an uncalibrated percentage of 73. NDVI measures greenness, not harvest type. Always double-check field records and imagery for confirmation."
+  },
+  {
+    "id": "BARC-248-2023",
+    "model": "nvidia/Nemotron-Mini-4B-Instruct",
+    "text": "The classifier suggests this field is primarily silage, with a 95% uncalibrated certainty. NDVI measures greenness, not harvest type. Always double-check field records and imagery for accuracy."
+  },
+  {
+    "id": "BARC-251-2023",
+    "model": "nvidia/Nemotron-Mini-4B-Instruct",
+    "text": "The classifier suggests this field is primarily silage, with an uncalibrated percentage of 73. NDVI measures greenness, not harvest type. Always double-check field records and imagery for confirmation."
+  },
+  {
+    "id": "BARC-286-2023",
+    "model": "nvidia/Nemotron-Mini-4B-Instruct",
+    "text": "\"The classifier suggests this field is predominantly grain, with an uncalibrated percentage of 56. However, NDVI measures greenness and cannot confirm harvest type. Always check field records and imagery for accurate harvest information.\""
+  },
+  {
+    "id": "BARC-288-2023",
+    "model": "nvidia/Nemotron-Mini-4B-Instruct",
+    "text": "The classifier suggests a silage crop with an uncalibrated percentage of 51. NDVI measures greenness, not harvest type. Always check field records and imagery for confirmation."
+  },
+  {
+    "id": "BARC-323-2023",
+    "model": "nvidia/Nemotron-Mini-4B-Instruct",
+    "text": "The classifier suggests this field is primarily silage, with an uncalibrated percentage of 83. NDVI measures greenness, not harvest type. Always double-check field records and imagery for accuracy."
+  },
+  {
+    "id": "BARC-347-2023",
+    "model": "nvidia/Nemotron-Mini-4B-Instruct",
+    "text": "\"The classifier suggests this area is predominantly grain, with an uncalibrated percentage of 64. However, NDVI measures greenness and cannot confirm harvest type. Always check field records and imagery for accurate harvest information.\""
+  },
+  {
+    "id": "BARC-348-2023",
+    "model": "nvidia/Nemotron-Mini-4B-Instruct",
+    "text": "The classifier suggests Grain with an uncalibrated percentage of 56. NDVI measures greenness, not harvest type. Always check field records and imagery for confirmation."
+  },
+  {
+    "id": "BARC-382-2023",
+    "model": "nvidia/Nemotron-Mini-4B-Instruct",
+    "text": "The classifier suggests Grain with an uncalibrated percentage of 92. NDVI measures greenness, not harvest type. Always check field records and imagery for confirmation."
+  },
+  {
+    "id": "BARC-383-2023",
+    "model": "nvidia/Nemotron-Mini-4B-Instruct",
+    "text": "The classifier suggests Grain with an uncalibrated percentage of 93. NDVI measures greenness, not harvest type. Always check field records and imagery for confirmation."
+  },
+  {
+    "id": "BARC-394-2023",
+    "model": "nvidia/Nemotron-Mini-4B-Instruct",
+    "text": "The classifier suggests this field is primarily silage, with an uncalibrated percentage of 84. NDVI measures greenness, not harvest type. Always double-check field records and imagery for confirmation."
+  },
+  {
+    "id": "BARC-397-2023",
+    "model": "nvidia/Nemotron-Mini-4B-Instruct",
+    "text": "The classifier suggests this field is primarily silage, with a 99% uncalibrated certainty. NDVI measures greenness, not harvest type. Always double-check field records and imagery for accuracy."
+  },
+  {
+    "id": "BARC-400-2023",
+    "model": "nvidia/Nemotron-Mini-4B-Instruct",
+    "text": "The classifier suggests Grain with an uncalibrated percentage of 51. NDVI measures greenness, not harvest type. Always check field records and imagery for confirmation."
+  },
+  {
+    "id": "BARC-254-2023",
+    "model": "nvidia/Nemotron-Mini-4B-Instruct",
+    "text": "The classifier suggests this field is primarily silage, with an uncalibrated percentage of 57. NDVI measures greenness, not harvest type. Always double-check field records and imagery for confirmation."
+  },
+  {
+    "id": "BARC-292-2023",
+    "model": "nvidia/Nemotron-Mini-4B-Instruct",
+    "text": "The classifier suggests this field is primarily silage, with a 98% uncalibrated certainty. NDVI measures greenness, not harvest type. Always double-check field records and imagery for accuracy."
+  }
+]

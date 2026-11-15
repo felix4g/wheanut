@@ -1,0 +1,19 @@
+{
+  "catalog": "https://planetarycomputer.microsoft.com/api/stac/v1",
+  "collection": "sentinel-2-l2a",
+  "years": [
+    2021,
+    2022,
+    2023
+  ],
+  "start_month_day": "06-01",
+  "end_month_day": "11-30",
+  "max_scene_cloud": 65,
+  "max_scenes_per_year": 32,
+  "minimum_valid_fraction": 0.35,
+  "minimum_observations": 6,
+  "random_seed": 42,
+  "nemotron_model": "nvidia/llama-3.1-nemotron-nano-8b-v1",
+  "local_nemotron_model": "nvidia/Nemotron-Mini-4B-Instruct",
+  "local_nemotron_revision": "791833e92ebddb0bc2c1007f6d2b6764f886a2ae"
+}
